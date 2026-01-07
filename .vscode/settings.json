@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "Unit-test/src/main/java",
+    "Unit-test/src/test/java"
+  ],
+  "java.project.referencedLibraries": [
+    "Unit-test/lib/junit-platform-console-standalone-1.10.2.jar"
+  ],
+  "files.encoding": "utf8"
+}
