@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.StudentAnalyzerTest" time="0.047" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.StudentAnalyzerTest" time="0.057" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\haicu\.jdk\jdk-11.0.28\bin"/>
-    <property name="sun.java.command" value="C:\Users\haicu\AppData\Local\Temp\surefire11093404788293984802\surefirebooter-20260107164901004_3.jar C:\Users\haicu\AppData\Local\Temp\surefire11093404788293984802 2026-01-07T16-49-00_604-jvmRun1 surefire-20260107164901004_1tmp surefire_0-20260107164901004_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\haicu\AppData\Local\Temp\surefire6030386942162158315\surefirebooter-20260107165313304_3.jar C:\Users\haicu\AppData\Local\Temp\surefire6030386942162158315 2026-01-07T16-53-12_960-jvmRun1 surefire-20260107165313304_1tmp surefire_0-20260107165313304_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\haicu\KiemThuPhanMem-IT5\student-analyzer\target\test-classes;c:\Users\haicu\KiemThuPhanMem-IT5\student-analyzer\target\classes;C:\Users\haicu\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\haicu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\haicu\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\haicu\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\haicu\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\haicu\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\haicu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\haicu\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\haicu\AppData\Local\Temp\surefire11093404788293984802\surefirebooter-20260107164901004_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\haicu\AppData\Local\Temp\surefire6030386942162158315\surefirebooter-20260107165313304_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.28+6-LTS"/>
@@ -61,7 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="countExcellentStudents_invalidOnly" classname="com.example.StudentAnalyzerTest" time="0.021"/>
+  <testcase name="countExcellentStudents_invalidOnly" classname="com.example.StudentAnalyzerTest" time="0.025"/>
+  <testcase name="calculateValidAverage_basicCase" classname="com.example.StudentAnalyzerTest" time="0.001"/>
   <testcase name="countExcellentStudents_basicCase" classname="com.example.StudentAnalyzerTest" time="0.001"/>
+  <testcase name="calculateValidAverage_emptyList" classname="com.example.StudentAnalyzerTest" time="0.001"/>
   <testcase name="countExcellentStudents_emptyList" classname="com.example.StudentAnalyzerTest" time="0.001"/>
+  <testcase name="calculateValidAverage_invalidOnly" classname="com.example.StudentAnalyzerTest" time="0.001"/>
+  <testcase name="calculateValidAverage_boundariesIncluded" classname="com.example.StudentAnalyzerTest" time="0.001"/>
 </testsuite>
