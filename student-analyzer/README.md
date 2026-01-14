@@ -1,7 +1,51 @@
-# BÁO CÁO DỰ ÁN: STUDENT ANALYZER
+## THÔNG TIN SINH VIÊN 
+
+**Tên:** Phạm Tuấn Hải  
+**Mã sinh viên:** BIT230141
+**Lớp:** Kiểm Thử Phần Mềm - IT5  
+**Ngày hoàn thành:** Tháng 1, 2026 
+
+---
+
+## BÀI TẬP TUẦN 1: TRẢI NGHIỆM GIAO DIỆN UI/UX
+
+### Giới Thiệu
+Bài tập tuần 1 tập trung vào việc **đánh giá khả năng nhận biết chi tiết trong thiết kế giao diện người dùng** thông qua game "Can't Unsee" - một công cụ kiểm tra kỹ năng quan sát UI/UX design.
+
+### Mục Tiêu Bài Tập
+- Rèn luyện khả năng phát hiện sự khác biệt nhỏ trong thiết kế UI
+- Nâng cao nhận thức về best practices trong UI/UX
+- Hiểu được tầm quan trọng của chi tiết trong testing giao diện
+- Phát triển "con mắt" chuyên nghiệp khi đánh giá chất lượng UI
+
+### Kết Quả Đạt Được
+CantUnsee
+
+**Chi tiết thành tích:**
+- **Điểm số đạt được:** 7,280 điểm 
+- **Xếp hạng:** SILVER (Top 25%)
+- **Thời gian hoàn thành:** 00:07:16
+- **Đánh giá:** Đạt mức khá tốt trong việc nhận biết các chi tiết UI/UX
+
+### Kinh Nghiệm Rút Ra
+1. **Chi tiết quan trọng:** Những sai lệch nhỏ trong alignment, spacing, color có thể ảnh hưởng lớn đến trải nghiệm người dùng
+2. **Consistency matters:** Tính nhất quán trong thiết kế là yếu tố then chốt
+3. **Best practices:** Hiểu được các chuẩn mực thiết kế như icon size, button states, typography
+4. **Testing mindset:** Phát triển tư duy quan sát tỉ mỉ - kỹ năng cần thiết cho Software Testing
+
+### Ứng Dụng Vào Testing
+Kỹ năng nhận biết chi tiết UI giúp:
+-  Phát hiện UI bugs nhanh hơn
+-  Viết test cases chi tiết hơn cho UI testing
+-  Đánh giá chất lượng visual regression
+-  Cải thiện kỹ năng review design specs
+
+---
+
+## BÀI TẬP TUẦN 2: STUDENT ANALYZER
 # Hệ Thống Phân Tích Điểm Số Học Sinh
 
-## 📋 THÔNG TIN DỰ ÁN
+## THÔNG TIN DỰ ÁN
 
 **Tên dự án:** Student Analyzer  
 **Môn học:** Kiểm Thử Phần Mềm (IT5)  
@@ -12,7 +56,7 @@
 
 ---
 
-## 🎯 MỤC ĐÍCH DỰ ÁN
+## MỤC ĐÍCH DỰ ÁN
 
 Dự án được phát triển nhằm:
 1. **Xử lý và phân tích dữ liệu điểm số** của học sinh một cách hiệu quả
@@ -23,7 +67,7 @@ Dự án được phát triển nhằm:
 
 ---
 
-## 🏗️ KIẾN TRÚC DỰ ÁN
+## KIẾN TRÚC DỰ ÁN
 
 ### Công Nghệ Sử Dụng
 - **Java Development Kit (JDK):** Version 11
@@ -33,7 +77,7 @@ Dự án được phát triển nhằm:
 
 ---
 
-## 💡 CHỨC NĂNG ĐÃ TRIỂN KHAI
+## CHỨC NĂNG ĐÃ TRIỂN KHAI
 
 ### 1. Lớp StudentAnalyzer
 
@@ -77,7 +121,7 @@ double avg = analyzer.calculateValidAverage(scores);
 
 ---
 
-## ✅ CHIẾN LƯỢC KIỂM THỬ
+## CHIẾN LƯỢC KIỂM THỬ
 
 ### Test Cases Đã Triển Khai
 
@@ -110,7 +154,7 @@ Tổng số: **7 test cases** - Tất cả PASS ✓
 
 ---
 
-## 🔧 HƯỚNG DẪN SỬ DỤNG
+## HƯỚNG DẪN SỬ DỤNG
 
 ### Yêu Cầu Hệ Thống
 - **Java JDK:** Version 11 trở lên
@@ -169,7 +213,7 @@ public class Main {
 
 ---
 
-## 📊 KẾT QUẢ KIỂM THỬ
+## KẾT QUẢ KIỂM THỬ
 
 ### Báo Cáo Test Execution
 ```
@@ -188,31 +232,31 @@ Time elapsed: 0.053s
 
 ---
 
-## 🎓 KIẾN THỨC ĐÃ ÁP DỤNG
+## KIẾN THỨC ĐÃ ÁP DỤNG
 
 ### 1. Kỹ Thuật Lập Trình
-- ✅ Object-Oriented Programming (OOP)
-- ✅ Exception Handling & Null Safety
-- ✅ Collections Framework (List handling)
-- ✅ Clean Code Principles
-- ✅ Javadoc Documentation
+- Object-Oriented Programming (OOP)
+- Exception Handling & Null Safety
+- Collections Framework (List handling)
+- Clean Code Principles
+- Javadoc Documentation
 
 ### 2. Kỹ Thuật Kiểm Thử
-- ✅ Unit Testing với JUnit 5
-- ✅ Test-Driven Development (TDD)
-- ✅ Assertion Methods (assertEquals, delta comparison)
-- ✅ Test Case Design
-- ✅ Edge Case & Boundary Testing
+- Unit Testing với JUnit 5
+- Test-Driven Development (TDD)
+- Assertion Methods (assertEquals, delta comparison)
+- Test Case Design
+- Edge Case & Boundary Testing
 
 ### 3. Build & Project Management
-- ✅ Maven Project Configuration
-- ✅ Dependency Management
-- ✅ Build Lifecycle (clean, compile, test)
-- ✅ Test Reporting với Surefire Plugin
+- Maven Project Configuration
+- Dependency Management
+- Build Lifecycle (clean, compile, test)
+- Test Reporting với Surefire Plugin
 
 ---
 
-## 🚀 HƯỚNG PHÁT TRIỂN TIẾP THEO
+## HƯỚNG PHÁT TRIỂN TIẾP THEO
 
 ### Chức Năng Mở Rộng
 1. Thêm phân loại chi tiết (Xuất sắc, Giỏi, Khá, Trung bình, Yếu)
@@ -230,7 +274,7 @@ Time elapsed: 0.053s
 
 ---
 
-## 📝 KINH NGHIỆM RÚT RA
+## KINH NGHIỆM RÚT RA
 
 ### Những Điều Đã Học Được
 1. **Unit Testing quan trọng:** Giúp phát hiện lỗi sớm và đảm bảo code hoạt động đúng
@@ -243,22 +287,5 @@ Time elapsed: 0.053s
 2. Đảm bảo test coverage 100%
 3. Thiết kế test cases bao quát tất cả trường hợp
 4. Cấu hình Maven và JUnit 5 đúng cách
-
----
-
-## 👨‍💻 THÔNG TIN SINH VIÊN 
-
-**Tên:** Phạm Tuấn Hải  
-**Mã sinh viên:** BIT230141
-**Lớp:** Kiểm Thử Phần Mềm - IT5  
-**Ngày hoàn thành:** Tháng 1, 2026  
-
----
-
-## 📄 GIẤY PHÉP
-
-Dự án này được phát triển cho mục đích học tập tại môn Kiểm Thử Phần Mềm.
-
----
 
 **© 2026 Student Analyzer Project - All Rights Reserved**
